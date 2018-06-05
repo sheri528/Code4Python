@@ -1,7 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-''' from https://github.com/faif/python-patterns/blob/master/behavioral/strategy.py'''
+''' from https://github.com/faif/python-patterns/blob/master/behavioral/strategy.py
+
+    策略模式：
+        每一个类（函数）封装一种算法，每个算法为一种策略。是常见的插件实现模式。
+        目的： 将定义和使用分开。即分离行为与环境。
+
+'''
 
 """
 http://stackoverflow.com/questions/963965/how-is-this-strategy-pattern
